@@ -13,16 +13,23 @@
 /* start navigation */ 
 
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+    padding: 0 2rem 0 3rem;
 }
+
+.header_area .main-menu .navbar .navbar-brand img{
+    width: 100px;
+}
+
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
 }
 
+
+
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
-    text-transform: uppercase;
+    font: normal 500 19px/2px var(--dosis);
+    /*text-transform: uppercase;*/
     padding: 1.7rem;
     color: var(--title-color);
 }
@@ -72,6 +79,41 @@
 .site-main .site-banner .site-title h4{
     font-size: 1.5rem;
 }
+
+.site-main .site-banner .site-title h4 {
+    position: relative;
+    font-size: 2rem;
+    padding: 1.1rem 0 ;
+    font-weight: 100;
+  /*letter-spacing: 0.1rem;*/
+    text-align: left;
+    overflow: hidden;
+}
+
+.site-main .site-banner .site-title h4 span.typed-text {
+    position: relative;
+    font-weight: normal;
+    color: #f02d3a;
+    z-index: 3;
+}
+.site-main .site-banner .site-title h4 span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+.site-main .site-banner .site-title h4 span.cursor.typing {
+    animation: none;
+}
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+}
+
 
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
