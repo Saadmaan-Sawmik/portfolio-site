@@ -54,15 +54,15 @@
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+    /*background: url(../img/banner/home-banner.png) no-repeat 0% 50%;*/
 }
 
 .site-main .site-banner .site-title h3{
-    padding-top: 35%;
+    padding-top: 20%;
     font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after{
+/*.site-main .site-banner .site-title h3::after{
     content: " ";
     height: 2px;
     width: 18vw;
@@ -70,9 +70,10 @@
     display: inline-block;
     margin-left: 5%;
     transform: translateY(-10px);
-}
+}*/
 
 .site-main .site-banner .site-title h1{
+    font-family: var(--galada);
     font-size: 5rem;
 }
 
@@ -93,8 +94,16 @@
 .site-main .site-banner .site-title h4 span.typed-text {
     position: relative;
     font-weight: normal;
-    color: #f02d3a;
-    z-index: 3;
+    color: var(--gradient-color);
+    background-color:  var(--gradient-color);
+    color: var(--title-color);
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    /*color: #f02d3a;*/
+    /*z-index: 3;*/
 }
 .site-main .site-banner .site-title h4 span.cursor {
     display: inline-block;
@@ -113,6 +122,13 @@
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
 }
+
+
+.site-main .site-banner .site-title p{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
 
 
 .site-main .site-banner .banner-image > img{
