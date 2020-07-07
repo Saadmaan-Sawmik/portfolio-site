@@ -138,8 +138,11 @@
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
-    letter-spacing: 21px;
+    font-family: var(--dosis);
+    font-weight: 700;
+    /*font: normal bold 49px/ 60px var(--roboto);*/
+    letter-spacing: 5px;
+    font-size: 3rem;
 }
 
 .site-main .about-area .about-title .paragraph > p{
@@ -227,28 +230,37 @@
 }
 
 /* End Brand Area */ 
+/* Services Area */ 
+
+
+
+/* Services Area */ 
 
 /* Services Area */ 
 
 .site-main .services-area{
-    padding: 7rem 2rem;
+    padding: 7rem 0rem;
 }
 
 .site-main .services-area .services-title{
     padding: 0 14rem;
 }
 
+
 .site-main .services-area .services-title h1{
     font-size: 35px;
 }
 
 .site-main > .services-area .services{
-    background: rgba(248, 252, 253, 0.973);
+    /*background: rgba(255, 99, 61, 0.999);*/
+    background: #ffece5;
     padding: 2rem 0;
-    width: 16rem;
+    width: 13.5rem;
     margin: 5rem .5rem;
     transition: box-shadow .7s ease;
 }
+
+
 
 .site-main > .services-area .services:hover{
     box-shadow: var(--box-shadow);
