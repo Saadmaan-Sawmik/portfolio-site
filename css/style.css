@@ -395,6 +395,10 @@ footer.footer-area{
     background: url(../img/footer-bg.png) no-repeat;
 }
 
+footer.footer-area .container .site-logo img{
+    height: 50px;
+}
+
 footer.footer-area .social h5{
     font: normal 500 23px/ 30px var(--roboto);
 }
