@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Daily Tuition</title>
+    <title>Sawmik</title>
 
 
     <!--  Bootstrap css file  -->
@@ -139,7 +139,7 @@
 
         <!--  ========================= End About Area ==========================  -->
 
-                <!--  ====================== Start Services Area =============================  -->
+        <!--  ====================== Start Services Area =============================  -->
 
         <section id="services-area" class="services-area">
             <div class="container">
@@ -367,6 +367,12 @@
         <section id="brand-area" class="brand-area">
             <div class="container-fluid">
                 <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text">Find Me On...</h1>
+                    <p class="para">
+                        You can find me and also see my works from any of these platforms. Give me a knock wherever you think we should talk. I will be happy to answer you.  
+                    </p>
+                    </div>
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="first-row row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -386,7 +392,8 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/1x/pin final.png" alt="Brand-4">
+                                    <img src="https://i.ibb.co/Y7NkwJk/pin-final.png" alt="pinterest">
+                                    <!-- <img src="./img/brands/1x/pin final.png" alt="Brand-4"> -->
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -528,11 +535,11 @@
         <!--  ======================== End About Me Area ==============================  -->
 
         <!--  ========================== Subscribe me Area ============================  -->
-        <section id="subscribe-us-area" class="subscribe-us-area">
+<!--         <section id="subscribe-us-area" class="subscribe-us-area">
             <div class="container subscribe">
                 <div class="row">
                     <div class="col-lg-12 text-center subscribe-title">
-                        <h4 class="text-uppercase">Get Update From anywhere</h4>
+                        <h4 class="text-uppercase">Contact Me</h4>
                         <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
                             consequuntur.</p>
                     </div>
@@ -541,6 +548,9 @@
                     <form class="w-50">
                         <div class="row d-flex flex-row flex-wrap">
                             <div class="col input-textbox">
+                                <input type="text" id="txtemail" class="form-control" placeholder="Email"> <br>
+                                <input type="text" id="txtemail" class="form-control" placeholder="Email">
+                                <br>
                                 <input type="text" id="txtemail" class="form-control" placeholder="Email">
                             </div>
                             <div class="col">
@@ -552,8 +562,43 @@
                     </form>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--  ========================== End Subscribe me Area ============================  -->
+
+        <!-- ============================== Start Contact Area =========================== -->
+
+
+        <div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </div>
+            <form method="post" id="contact-form" action="email_handler.php">
+                <h3>Drop Me a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="email" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phone" class="form-control" placeholder="Your Phone Number " value="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="message" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- =============================== End Contact Area ============================= -->
 
 
     </main>
